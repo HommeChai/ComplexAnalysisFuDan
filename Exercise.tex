@@ -1,0 +1,46 @@
+\documentclass[12pt, a4paper, oneside]{ctexart}
+\usepackage{amsmath, amsthm, amssymb, bm, color, framed, graphicx, hyperref, mathrsfs}
+
+\title{\textbf{复分析习题解答}}
+\author{匿名}
+\date{\today}
+\linespread{1.5}
+\definecolor{shadecolor}{RGB}{220, 220, 220}
+\newcounter{problemname}
+\newenvironment{problem}[1]{\begin{shaded}\stepcounter{problemname}\par\noindent\textbf{题\arabic{problemname}(#1) }}{\end{shaded}\par}
+\newenvironment{solution}{\par\noindent\textbf{解答:}}{\par}
+\newenvironment{note}{\par\noindent\textbf{题\arabic{problemname}注}}{\par}
+
+\begin{document}
+
+\maketitle
+
+\begin{problem}{1.1.1}
+    证明: 具有正实部的解析函数族是正规族。
+\end{problem}
+
+\begin{solution}
+    这里是解答。
+\end{solution}
+
+\begin{problem}{Marty定理}
+    区域 $\Omega$ 上亚纯函数族 $\mathcal{M}$ 是正规族的充要条件是 $\mathcal{M}$ 上函数的球面导数内闭一致有界.
+\end{problem}
+
+\begin{solution}
+    这里是解答。
+\end{solution}
+
+\begin{problem}{1.2.4}
+    设 $f:\mathbb{D} \to \mathbb{D}$ 是解析函数，其中 $f(0) = 0, a \not\in f(\mathbb{D}),a\in (0,1)$。此时求证
+    \begin{equation*}
+        |f'(0)| \le \frac{2a\ln(\frac{1}{a})}{1-a^{2}}
+    \end{equation*}
+    当且仅当
+    \begin{equation*}
+        f(z) = \frac{a - h(z)}{1- ah(z)},\quad h(z) = e^{\frac{1-e^{\sqrt{-1}\theta}z}{1+e^{\sqrt{-1}\theta}z}\ln a}
+    \end{equation*}
+    时等号成立。
+\end{problem}
+
+\end{document}
